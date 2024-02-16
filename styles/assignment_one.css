@@ -1,4 +1,4 @@
-/* Common styles for cards */
+
 .card {
     box-sizing: border-box;
     padding: 20px;
@@ -23,7 +23,7 @@
     }
   
     .card {
-      width: 48%; /* 2 cards in a row */
+      width: 48%;
       flex-basis: 48%;
     }
   
@@ -31,7 +31,6 @@
       margin-right: 0; 
     }
   
-    /* Last card takes full width */
     .card:last-child {
       width: 100%;
       flex-basis: 100%;
